@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(gracia-dharma-qTlbO6mkQH0-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.top, .mid, .name, .email, .pass, .bottom {
+    background-color: rgba(40, 44, 52, 0.7);
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.top span {
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 80px;
+}
+
+.mid h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.mid p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.mid a {
+    color: #61dafb;
+    text-decoration: none;
+}
+.mid a:hover {
+    cursor: pointer;
+    color: rgb(151, 151, 251);
+    transition: color 0.3s ease;
+}
+
+label {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-right: 2px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    background-color: #61dafb;
+    color: #282c34;
+}
+
+button:hover {
+    opacity: 0.8;
+    background-color: rgb(50, 55, 97);
+    color: white;
+    transition: color 0.3s ease;
+}
+.create {
+    margin-left: 20px;
+}
